@@ -16,7 +16,7 @@ Time synchronization is crucial for distributed applications in networked embedd
 4. Final report with performance evaluation and recommendations.
 
 ## System Block Diagram
-(Insert diagram showing the system architecture: ESP32 devices, Raspberry Pi, and data flow.)
+
 
 ## Hardware/Software Requirements
 - **Hardware:**
@@ -28,12 +28,12 @@ Time synchronization is crucial for distributed applications in networked embedd
   - Basic machine learning algorithms for time drift estimation
 
 ## Team Members & Responsibilities
-- **Ishaan:**
-  - Lead role: Software development
-  - Responsibilities: Programming for Raspberry Pi, system integration, and time drift estimation.
+- **Ishaan Salian:**
+  - Lead role: 
+  - Responsibilities: 
 - **Haoran Zhang:**
-  - Lead role: Networking and algorithm design
-  - Responsibilities: Setting up communication between devices, developing the synchronization protocol.
+  - Lead role:
+  - Responsibilities:
 
 ## Project Timeline
 | Milestone | Deadline |
@@ -45,6 +45,6 @@ Time synchronization is crucial for distributed applications in networked embedd
 | Final report and presentation | Week 7 |
 
 ## References
-1. [HAEST: Harvesting Ambient Events to Synchronize Time across Heterogeneous IoT Devices](#)
-2. [Automated Synchronization of Driving Data Using Vibration and Steering Events](#)
-3. [Exploiting Smartphone Peripherals for Precise Time Synchronization](#)
+1. [HAEST: Harvesting Ambient Events to Synchronize Time across Heterogeneous IoT Devices](https://www.computer.org/csdl/proceedings-article/rtas/2024/584100a265/1Y5F2yadseQ)
+2. [Automated Synchronization of Driving Data Using Vibration and Steering Events](https://arxiv.org/abs/1510.06113)
+3. [Exploiting Smartphone Peripherals for Precise Time Synchronization](https://ieeexplore.ieee.org/document/8886639)
