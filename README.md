@@ -33,7 +33,6 @@ Time synchronization is crucial for distributed applications in networked embedd
   - Responsibilities:
     - Integrate the time synchronization protocol on the Raspberry Pi, ensuring that it effectively uses data from ESP32 devices.
     - Characterize network delay and clock drift between devices, and analyze the overall performance of the system.
-    - Develop test setups and analyze the timing precision of the synchronized devices using hardware-based tests.
     - Perform real-world tests to validate the system’s accuracy under various network conditions.
   - Key Focus:
     - Measuring and optimizing the performance of the hardware setup, focusing on synchronization accuracy, clock drift, and system integration.
