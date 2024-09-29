@@ -63,5 +63,5 @@ Time synchronization is crucial for distributed applications in networked embedd
 
 ## References
 1. [HAEST: Harvesting Ambient Events to Synchronize Time across Heterogeneous IoT Devices](https://www.computer.org/csdl/proceedings-article/rtas/2024/584100a265/1Y5F2yadseQ)
-2. [Automated Synchronization of Driving Data Using Vibration and Steering Events](https://arxiv.org/abs/1510.06113)
+2. [Automated Synchronization of Driving Data Using Vibration and Steering Events](https://www.sciencedirect.com/science/article/abs/pii/S0167865516000581)
 3. [Exploiting Smartphone Peripherals for Precise Time Synchronization](https://ieeexplore.ieee.org/document/8886639)
