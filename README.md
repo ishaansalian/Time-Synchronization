@@ -28,25 +28,39 @@ Time synchronization is crucial for distributed applications in networked embedd
   - Basic machine learning algorithms for time drift estimation
 
 ## Team Members & Responsibilities
-- **Ishaan Salian:**
-  - Lead role: 
-  - Responsibilities: 
-- **Haoran Zhang:**
-  - Lead role:
+- **Ishaan Salian**
+  - Lead role: Hardware System Integration (Raspberry PI)
   - Responsibilities:
+    - Integrate the time synchronization protocol on the Raspberry Pi, ensuring that it effectively uses data from ESP32 devices.
+    - Characterize network delay and clock drift between devices, and analyze the overall performance of the system.
+    - Develop test setups and analyze the timing precision of the synchronized devices using hardware-based tests.
+    - Perform real-world tests to validate the system’s accuracy under various network conditions.
+  - Key Focus:
+    - Measuring and optimizing the performance of the hardware setup, focusing on synchronization accuracy, clock drift, and system integration.
+
+- **Haoran Zhang**
+  - Lead role: Hardware Communication (ESP32)
+  - Responsibilities:
+    - Set up and manage communication between the Raspberry Pi and ESP32 devices (e.g., Bluetooth, Wi-Fi).
+    - Ensure the physical connections (GPIO, I2C, SPI) and wireless communication protocols are functioning correctly.
+    - Develop and troubleshoot the firmware for ESP32 devices to send sensor data with accurate timestamps.
+  - Key Focus:
+    - Ensuring reliable data transmission and minimizing delay in network communication. Managing the hardware interface and connectivity of ESP32 and Raspberry Pi.
+
+
 
 
 ## Project Timeline
 
-| Date Range           | Milestone                                        | Tasks                                                                                       |
+| Date Range           | Milestone                                        | Tasks                                                                                       |Check-in |
 |---------------------|--------------------------------------------------|---------------------------------------------------------------------------------------------|
 | 9/29/24 - 10/5/24   | Project Planning and Hardware Pickup             | - Discuss project goals and requirements among team.<br>- Pick up hardware (ESP32s and Raspberry Pi) from the lab. |
 | 10/6/24 - 10/19/24  | Initial Tests & Develop Synchronization Protocol (Part 1) | - Establish wireless communication between Raspberry Pi and ESP32 devices.<br>- Test basic sensor data transmission from ESP32 to Raspberry Pi.<br>- Begin developing the initial time synchronization protocol on Raspberry Pi.<br>- Implement basic algorithms for collecting timestamped sensor data.<br>- Work on handling network delays between devices.<br>- Document key challenges and insights. |
-| 10/20/24 - 10/26/24 | Develop Synchronization Protocol (Part 2)       | - Complete the synchronization protocol, focusing on clock drift estimation.<br>- Refine the algorithm for synchronizing time between Raspberry Pi and ESP32 devices.<br>- Perform initial tests of the synchronization protocol.<br>- **First Check-in (October)** |
-| 10/27/24 - 11/9/24  | Testing and Debugging                            | - Run comprehensive tests to evaluate network delay and synchronization accuracy.<br>- Log and analyze clock drift between the devices.<br>- Identify issues or areas for optimization in both hardware and software.<br>- Adjust hardware timers and communication protocols as needed.<br>- Continue optimizing the synchronization protocol.<br>- Prepare a mid-project status update.<br>- **Second Check-in (November)** |
+| 10/20/24 - 10/26/24 | Develop Synchronization Protocol (Part 2)       | - Complete the synchronization protocol, focusing on clock drift estimation.<br>- Refine the algorithm for synchronizing time between Raspberry Pi and ESP32 devices.<br>- Perform initial tests of the synchronization protocol.| **First Check-in (October)** |
+| 10/27/24 - 11/9/24  | Testing and Debugging                            | - Run comprehensive tests to evaluate network delay and synchronization accuracy.<br>- Log and analyze clock drift between the devices.<br>- Identify issues or areas for optimization in both hardware and software.<br>- Adjust hardware timers and communication protocols as needed.<br>- Continue optimizing the synchronization protocol.<br>- Prepare a mid-project status update.| **Second Check-in (November)** |
 | 11/10/24 - 11/16/24 | System Integration and Final Adjustments         | - Integrate the synchronization protocol with the full system.<br>- Ensure all hardware components are functioning properly together.<br>- Optimize the final setup for the best performance.<br>- Begin drafting the final report. |
 | 11/17/24 - 11/23/24 | System Evaluation and Documentation              | - Evaluate the performance of the system.<br>- Gather results on synchronization accuracy, clock drift, and network delay.<br>- Complete final tests and ensure all deliverables are met.<br>- Finalize the system design documentation. |
-| 11/24/24 - 11/30/24 | Final Report and Presentation Preparation        | - Complete the final report, including results, analysis, and recommendations.<br>- Prepare the project presentation, focusing on key insights and contributions.<br>- Rehearse the presentation and receive feedback.<br>- **Third Check-in (December)** |
+| 11/24/24 - 11/30/24 | Final Report and Presentation Preparation        | - Complete the final report, including results, analysis, and recommendations.<br>- Prepare the project presentation, focusing on key insights and contributions.<br>- Rehearse the presentation and receive feedback.| **Third Check-in (December)** |
 | 12/1/24 - 12/7/24   | Final Presentation and Project Submission        | - Deliver the final presentation to the class or professor.<br>- Submit the final report, code, and documentation.<br>- Return hardware to the lab.<br>- Conduct a project debrief and discuss lessons learned. |
 
 
