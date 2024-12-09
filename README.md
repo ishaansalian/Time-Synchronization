@@ -15,8 +15,9 @@ Time synchronization is crucial for distributed applications in networked embedd
 3. Estimation of clock drift between devices.
 4. Final report with performance evaluation and recommendations.
 
-## System Block Diagram
-
+## System Block Diagrams
+![Process Diagram](Process-diagram.png)
+![Circuit Setup](Circuit-diagram.jpg)
 
 ## Hardware/Software Requirements
 - **Hardware:**
@@ -24,27 +25,27 @@ Time synchronization is crucial for distributed applications in networked embedd
   - Raspberry Pi
 - **Software:**
   - Programming for ESP32 and Raspberry Pi
-  - Communication protocols (Bluetooth, Wi-Fi)
-  - Basic machine learning algorithms for time drift estimation
+  - Communication protocols (Wi-Fi, UDP)
 
 ## Team Members & Responsibilities
 - **Ishaan Salian**
-  - Lead role: Hardware System Integration (Raspberry PI)
+  - Lead role: ESP32 Firmware Development
   - Responsibilities:
-    - Integrate the time synchronization protocol on the Raspberry Pi, ensuring that it effectively uses data from ESP32 devices.
-    - Characterize network delay and clock drift between devices, and analyze the overall performance of the system.
-    - Perform real-world tests to validate the system’s accuracy under various network conditions.
+    - Develop and troubleshoot the firmware for ESP32 devices to send sensor data with accurate timestamps.
+    - Implement reset functionality and periodic data transmission on ESP32 devices.
+    - Ensure reliable data synchronization and proper handling of reset commands from the Raspberry Pi.
   - Key Focus:
-    - Measuring and optimizing the performance of the hardware setup, focusing on synchronization accuracy, clock drift, and system integration.
+    - Writing and optimizing the ESP32 code, focusing on accurate data logging and seamless interaction with the Raspberry Pi.
 
 - **Haoran Zhang**
-  - Lead role: Hardware Communication (ESP32)
+  - Lead role: Raspberry Pi and Network Integration
   - Responsibilities:
-    - Set up and manage communication between the Raspberry Pi and ESP32 devices (e.g., Bluetooth, Wi-Fi).
-    - Ensure the physical connections (GPIO, I2C, SPI) and wireless communication protocols are functioning correctly.
-    - Develop and troubleshoot the firmware for ESP32 devices to send sensor data with accurate timestamps.
+    - Set up and manage communication between the Raspberry Pi and ESP32 devices, including network configurations.
+    - Develop the Raspberry Pi system to log data, calculate clock drift, and send synchronization commands to ESP32 devices.
+    - Analyze network delay and clock drift trends for system evaluation.
   - Key Focus:
-    - Ensuring reliable data transmission and minimizing delay in network communication. Managing the hardware interface and connectivity of ESP32 and Raspberry Pi.
+    - Ensuring robust network communication and synchronization logic on the Raspberry Pi, including handling drift and system-level analysis.
+
   
 
 ## **Project Timeline**

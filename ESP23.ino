@@ -43,12 +43,15 @@ void loop() {
   if (!handshakeComplete && udp.parsePacket()) {
     String incomingMessage = udp.readString();
     incomingMessage.trim();
+
     if (incomingMessage == "hi") {
+      // Respond to handshake
       char handshakeResponse[50];
       snprintf(handshakeResponse, sizeof(handshakeResponse), "esp_%d, 9999", deviceID);
       udp.beginPacket(serverIP, serverPort);
       udp.print(handshakeResponse);
       udp.endPacket();
+
       Serial.println("Handshake completed. Sending data...");
       handshakeComplete = true; // Handshake is done
     }
@@ -84,6 +87,7 @@ void loop() {
     if (udp.parsePacket()) {
       String resetCommand = udp.readString();
       resetCommand.trim();
+
       if (resetCommand == "reset") {
         // Reset the timer or any other necessary state
         previousMillis = 0;
