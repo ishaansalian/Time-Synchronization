@@ -46,8 +46,6 @@ Time synchronization is crucial for distributed applications in networked embedd
   - Key Focus:
     - Ensuring robust network communication and synchronization logic on the Raspberry Pi, including handling drift and system-level analysis.
 
-  
-
 ## **Project Timeline**
 
 | **Milestone** | **Tasks** | **Deadline** | **Check-in** |
@@ -61,6 +59,9 @@ Time synchronization is crucial for distributed applications in networked embedd
 | **11/24/24 - 11/30/24: Final Report and Presentation Preparation** | <ul><li>Complete the final report, including results, analysis, and recommendations.</li><li>Prepare the project presentation, focusing on key insights and contributions.</li><li>Rehearse the presentation and receive feedback.</li></ul> | **End of Week 9** | **Third Check-in (December)** |
 | **12/1/24 - 12/7/24: Final Presentation and Project Submission** | <ul><li>Deliver the final presentation to the class or professor.</li><li>Submit the final report, code, and documentation.</li><li>Return hardware to the lab.</li><li>Conduct a project debrief and discuss lessons learned.</li></ul> | **End of Week 10** | |
 
+## Results
+![Plot](Plot.png)
+![Demo](Demo_Poster.png)
 
 ## References
 1. [HAEST: Harvesting Ambient Events to Synchronize Time across Heterogeneous IoT Devices](https://www.computer.org/csdl/proceedings-article/rtas/2024/584100a265/1Y5F2yadseQ)
